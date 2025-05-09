@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PrimeBuild Hardware | Quality Construction Materials</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Top Bar -->
+    <div class="top-bar">
+        <div class="container">
+            <div class="contact-info">
+                <span><i class="fas fa-phone"></i> +91 98765 43210</span>
+                <span><i class="fas fa-envelope"></i> info@primebuild.com</span>
+                <span><i class="fas fa-map-marker-alt"></i> 123 Builders Street, City</span>
+            </div>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-whatsapp"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <span class="logo-icon"><i class="fas fa-hard-hat"></i></span>
+                <h1>Prime<span>Build</span></h1>
+            </div>
+            <div class="menu-toggle" id="mobile-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home" class="active"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="#about"><i class="fas fa-info-circle"></i> About Us</a></li>
+                <li class="dropdown">
+                    <a href="#products"><i class="fas fa-boxes"></i> Products <i class="fas fa-chevron-down"></i></a>
+                    <div class="dropdown-content">
+                        <a href="#cement">Cement & Concrete</a>
+                        <a href="#steel">Steel & Rods</a>
+                        <a href="#paints">Paints & Coatings</a>
+                        <a href="#tools">Tools & Equipment</a>
+                    </div>
+                </li>
+                <li><a href="#contact"><i class="fas fa-envelope"></i> Contact</a></li>
+                <li><a href="#quote" class="btn quote-btn">Get Quote</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="container">
+            <div class="hero-content">
+                <h2>Premium Construction Materials</h2>
+                <h1>BUILDING QUALITY SINCE 1995</h1>
+                <p>Your trusted partner for all construction needs with the best brands and competitive prices</p>
+                <div class="hero-buttons">
+                    <a href="#products" class="btn primary-btn">Our Products</a>
+                    <a href="#contact" class="btn secondary-btn">Contact Us</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <div class="container">
+            <div class="feature-box">
+                <i class="fas fa-truck"></i>
+                <h3>Free Delivery</h3>
+                <p>For orders above ₹10,000 within city limits</p>
+            </div>
+            <div class="feature-box">
+                <i class="fas fa-medal"></i>
+                <h3>Quality Assurance</h3>
+                <p>Certified materials from trusted brands</p>
+            </div>
+            <div class="feature-box">
+                <i class="fas fa-rupee-sign"></i>
+                <h3>Best Prices</h3>
+                <p>Competitive rates with bulk discounts</p>
+            </div>
+            <div class="feature-box">
+                <i class="fas fa-headset"></i>
+                <h3>Expert Support</h3>
+                <p>Construction advice from our specialists</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <h2 class="section-title">About PrimeBuild</h2>
+                <p class="section-subtitle">Your trusted hardware partner for over 25 years</p>
+                <div class="about-details">
+                    <div class="about-text">
+                        <p>Founded in 1995, PrimeBuild has grown from a small neighborhood hardware store to one of the region's most trusted suppliers of construction materials. We take pride in offering only the highest quality products from leading manufacturers.</p>
+                        <p>Our team of experienced professionals can guide you in selecting the right materials for your project, whether you're building a home, commercial property, or undertaking renovations.</p>
+                        <ul class="about-list">
+                            <li><i class="fas fa-check-circle"></i> 25+ years of industry experience</li>
+                            <li><i class="fas fa-check-circle"></i> Certified quality materials</li>
+                            <li><i class="fas fa-check-circle"></i> Competitive pricing with volume discounts</li>
+                            <li><i class="fas fa-check-circle"></i> Reliable delivery services</li>
+                        </ul>
+                    </div>
+                    <div class="about-image">
+                        <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Our Store">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="products">
+        <div class="container">
+            <h2 class="section-title">Our Products</h2>
+            <p class="section-subtitle">Quality materials for all your construction needs</p>
+            
+            <div class="product-categories">
+                <button class="category-btn active" data-category="all">All Products</button>
+                <button class="category-btn" data-category="cement">Cement</button>
+                <button class="category-btn" data-category="steel">Steel</button>
+                <button class="category-btn" data-category="paints">Paints</button>
+                <button class="category-btn" data-category="tools">Tools</button>
+            </div>
+            
+            <div class="products-grid">
+                <div class="product-card" data-category="cement">
+                    <div class="product-badge">Bestseller</div>
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1605152276897-4f618f831968?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="UltraTech Cement">
+                        <div class="product-overlay">
+                            <button class="quick-view-btn">Quick View</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>UltraTech Cement (PPC)</h3>
+                        <p class="product-brand">ACC Limited</p>
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                            <span>(42)</span>
+                        </div>
+                        <p class="product-price">₹420/bag <span class="original-price">₹450</span></p>
+                        <button class="add-to-cart-btn">Add to Inquiry</button>
+                    </div>
+                </div>
+                
+                <div class="product-card" data-category="steel">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1611574474484-ced6bef70d8e?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="TMT Steel Bars">
+                        <div class="product-overlay">
+                            <button class="quick-view-btn">Quick View</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>TMT Steel Bars</h3>
+                        <p class="product-brand">JSW Steel</p>
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <span>(36)</span>
+                        </div>
+                        <p class="product-price">₹72/kg</p>
+                        <button class="add-to-cart-btn">Add to Inquiry</button>
+                    </div>
+                </div>
+                
+                <div class="product-card" data-category="paints">
+                    <div class="product-badge">New</div>
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1579027989536-b7b1f875659b?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Asian Paints">
+                        <div class="product-overlay">
+                            <button class="quick-view-btn">Quick View</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Asian Paints Royale</h3>
+                        <p class="product-brand">Asian Paints</p>
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <span>(58)</span>
+                        </div>
+                        <p class="product-price">₹1,250/L</p>
+                        <button class="add-to-cart-btn">Add to Inquiry</button>
+                    </div>
+                </div>
+                
+                <!-- Add more product cards here -->
+            </div>
+            
+            <div class="view-all-btn">
+                <a href="#" class="btn secondary-btn">View All Products</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Brands Section -->
+    <section class="brands">
+        <div class="container">
+            <h2 class="section-title">Trusted Brands</h2>
+            <div class="brands-slider">
+                <div class="brand-logo"><img src="https://logo.clearbit.com/ultratechcement.com" alt="UltraTech"></div>
+                <div class="brand-logo"><img src="https://logo.clearbit.com/acclimited.com" alt="ACC"></div>
+                <div class="brand-logo"><img src="https://logo.clearbit.com/jsw.in" alt="JSW"></div>
+                <div class="brand-logo"><img src="https://logo.clearbit.com/asianpaints.com" alt="Asian Paints"></div>
+                <div class="brand-logo"><img src="https://logo.clearbit.com/bergerpaints.com" alt="Berger"></div>
+                <div class="brand-logo"><img src="https://logo.clearbit.com/hilti.com" alt="Hilti"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <div class="container">
+            <h2 class="section-title">What Our Customers Say</h2>
+            <p class="section-subtitle">Trusted by contractors and homeowners alike</p>
+            
+            <div class="testimonial-slider">
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p>"PrimeBuild has been our go-to supplier for all our construction projects. Their quality materials and reliable delivery have helped us complete projects on time."</p>
+                        <div class="customer-info">
+                            <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Customer">
+                            <div>
+                                <h4>Rajesh Kumar</h4>
+                                <p>Kumar Constructions</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <p>"The staff at PrimeBuild are knowledgeable and helped me select the right materials for my home renovation. Prices are competitive and quality is excellent."</p>
+                        <div class="customer-info">
+                            <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Customer">
+                            <div>
+                                <h4>Priya Sharma</h4>
+                                <p>Homeowner</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Add more testimonials here -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h2 class="section-title">Contact Us</h2>
+                    <p class="section-subtitle">We'd love to hear from you</p>
+                    
+                    <div class="info-box">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h3>Address</h3>
+                            <p>123 Builders Street, Industrial Area<br>City, State - 560001</p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-box">
+                        <i class="fas fa-phone-alt"></i>
+                        <div>
+                            <h3>Phone</h3>
+                            <p>+91 98765 43210<br>+91 80 2345 6789</p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-box">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h3>Email</h3>
+                            <p>info@primebuild.com<br>sales@primebuild.com</p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-box">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h3>Opening Hours</h3>
+                            <p>Monday - Saturday: 8:30 AM - 8:00 PM<br>Sunday: 10:00 AM - 4:00 PM</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <h3>Send us a message</h3>
+                        <div class="form-group">
+                            <input type="text" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" placeholder="Phone Number" required>
+                        </div>
+                        <div class="form-group">
+                            <select required>
+                                <option value="" disabled selected>Select Product Category</option>
+                                <option value="cement">Cement & Concrete</option>
+                                <option value="steel">Steel & Rods</option>
+                                <option value="paints">Paints & Coatings</option>
+                                <option value="tools">Tools & Equipment</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Your Message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn primary-btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <section class="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.123456789012!2d77.12345678901234!3d12.123456789012345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTLCsDA3JzI0LjQiTiA3N8KwMDcnMjQuNCJF!5e0!3m2!1sen!2sin!4v1234567890123!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <div class="logo">
+                        <span class="logo-icon"><i class="fas fa-hard-hat"></i></span>
+                        <h3>Prime<span>Build</span></h3>
+                    </div>
+                    <p>Your trusted partner for quality construction materials since 1995.</p>
+                    <div class="footer-social">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#products">Products</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Products</h3>
+                    <ul>
+                        <li><a href="#cement">Cement & Concrete</a></li>
+                        <li><a href="#steel">Steel & Rods</a></li>
+                        <li><a href="#paints">Paints & Coatings</a></li>
+                        <li><a href="#tools">Tools & Equipment</a></li>
+                        <li><a href="#plumbing">Plumbing</a></li>
+                        <li><a href="#electrical">Electrical</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Newsletter</h3>
+                    <p>Subscribe to get updates on new products and special offers.</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Your Email" required>
+                        <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2023 PrimeBuild Hardware. All Rights Reserved.</p>
+                <div class="payment-methods">
+                    <i class="fab fa-cc-visa"></i>
+                    <i class="fab fa-cc-mastercard"></i>
+                    <i class="fab fa-cc-paypal"></i>
+                    <i class="fas fa-money-bill-wave"></i>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
